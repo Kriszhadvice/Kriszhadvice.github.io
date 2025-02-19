@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: palevioletred;
+    color: rgb(51, 42, 42);
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+}
+header div{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    grid-template-rows: repeat(6, 80px);
+    gap: 15px;
+    justify-content: center;
+}
+
+main div{
+    background-color: rgb(233, 233, 233);
+    transition: 0.3s;
+    box-shadow: 10px, 10px, 5px, rgb(221, 198, 198);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+main div:hover{
+    background-color: rgb(211, 162, 162);
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:center;
+    gap: 100px;
+}
+
+footer div{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 5px;
+}
+div p{
+    transition: 0.5s;
+    font-size: 20px;}
