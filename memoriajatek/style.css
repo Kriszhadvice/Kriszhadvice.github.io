@@ -43,23 +43,4 @@ main div:hover{
     cursor: pointer;
 }
 
-footer{
-    text-align: center;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content:center;
-    gap: 100px;
-}
 
-footer div{
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    gap: 5px;
-}
-div p{
-    transition: 0.5s;
-    font-size: 20px;}
